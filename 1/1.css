@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: linear-gradient(150deg, #ff21c0,#fef9d7); 
+    overflow: hidden;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.bubble{
+    width: 100px;
+    height: 100px;
+    background-color: radial-gradient(circle at 75% 30%, #fff, #ff21c0);
+}
